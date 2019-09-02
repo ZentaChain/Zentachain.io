@@ -1571,9 +1571,9 @@ body.nav-active .nav__list-item:nth-child(10) {
 ================================================== */
 
 .video-section {
-	position: relative;
-	width:109%;
-	margin:10.5%;
+	position: center;
+	width:100%;
+	margin:10%;
 }
 .video-wrapper, figure.vimeo, figure.youtube {
 	margin:0;
