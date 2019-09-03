@@ -185,7 +185,7 @@
 
 		<?php }else{ ?>
 
-		<div class="shadow-title parallax-top-shadow">Stay up to date</div>
+		<div class="shadow-title parallax-top-shadow">Latest News</div>
 		
 		<div class="section padding-page-top padding-bottom over-hide z-bigger">
 			<div class="container z-bigger">
@@ -327,7 +327,7 @@
 		</div>
 
 		
-		<div class="section padding-top-bottom over-hide z-bigger background-dark-3 footer">
+		<div class="section padding-top-bottom over-hide z-bigger background-black footer">
 			<div class="shadow-on-footer" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.1s">Our Stories</div>
 				<div class="container" data-scroll-reveal="enter bottom move 20px over 0.5s after 0.4s">
 					<div class="row">
