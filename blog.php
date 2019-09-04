@@ -88,15 +88,15 @@
 	<meta property="og:title" content="The Future of Blockchain for Data protection and Communication">
 	<meta property="og:description" content="(ζ)Zentachain is a decentralized high-throughput blockchain ecosystem, designed for secure with anonymous communication and data storage.(ζ)">
 	<meta property="og:image" content="https://zentachain.io/assets/">
-    <meta name="Distribution" content="Global">
+        <meta name="Distribution" content="Global">
 	
 
 	<!-- Mobile Specific Metas
 	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#212121"/>
-    <meta name="msapplication-navbutton-color" content="#212121"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
+        <meta name="msapplication-navbutton-color" content="#212121"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
 
 	<!-- Web Fonts 
 	================================================== -->
@@ -117,6 +117,7 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 	
 </head>
+	
 <body>
 
 	<!-- Page preloader wrap
@@ -177,7 +178,7 @@
 						<h1 class="glitch" data-text="404">404</h1>
 					</header>
 					<div class="col-11 parallax-fade-top mt-2 mt-sm-3">
-						<h2>Not Fount</h2>
+						<h2>Not Found</h2>
 					</div>
 				</div>
 			</div>
