@@ -111,10 +111,10 @@
 	<link rel="stylesheet" href="css/swiper.min.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 			
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	<link rel="icon" type="image/png" href="favicon-zentachain.png">
+	<link rel="apple-touch-icon" href="zentachain-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="zentachain-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="zentachain-touch-icon-114x114.png">
 	
 </head>
 	
