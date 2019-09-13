@@ -145,20 +145,23 @@
 
 		<div class="nav">
 			<div class="nav__content">
-				<div class="curent-page-name-shadow">We have</div>
+				<div class="curent-page-name-shadow">Z-News</div>
 				<ul class="nav__list">
-					<li class="nav__list-item"><a data-toggle="collapse" href="#collapseSub" class="hover-target" role="button" aria-expanded="false" aria-controls="collapseSub">Menu</a>
+					<li class="nav__list-item"><a data-toggle="collapse" href="#collapseSub" class="hover-target" role="button" aria-expanded="false" aria-controls="collapseSub">Products</a>
 						<ul class="sub-links collapse" id="collapseSub">
-							<li><a href="index.html" class="hover-target animsition-link">Home</a></li>
-							<li><a href="kyc.html" class="hover-target animsition-link">KYC-Point</a></li>
+							<li><a href="http://www.zentalk.chat/" class="hover-target animsition-link">Zentalk-Web</a></li>
+							<li><a href="https://zentachain.io/zentaswap" class="hover-target animsition-link">Zentaswap</a></li>
+							<li><a href="zentalkApp.html" class="hover-target animsition-link">Zentalk-Mobile</a></li>
+							<li><a href="https://zentachain.io/zentawallet.html" class="hover-target animsition-link">Zentawallet</a></li>
 						</ul>
 					</li>
+					<li class="nav__list-item"><a href="kyc.html" class="hover-target animsition-link">KYC-Point</a></li>
 					<li class="nav__list-item"><a href="index.html" class="hover-target animsition-link">Our Partners</a></li>
 					<li class="nav__list-item active-nav"><a href="blog.php" class="hover-target animsition-link">News</a></li>
 					<li class="nav__list-item"><a href="contact.html" class="hover-target animsition-link">Contact</a></li>
 				</ul>
 			</div>
-		</div>	
+		</div>
 
 		<!-- Primary Page Layout
 		================================================== -->
