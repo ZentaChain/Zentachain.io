@@ -19,6 +19,20 @@
 	display: block;
 }
 
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 1px rgb(255, 255, 255);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255);
+}
+
 
 /* #Primary
 ================================================== */
@@ -1571,9 +1585,9 @@ body.nav-active .nav__list-item:nth-child(10) {
 ================================================== */
 
 .video-section {
-	position: center;
-	width:100%;
-	margin:10%;
+	position: relative;
+	width:109%;
+	margin:10.5%;
 }
 .video-wrapper, figure.vimeo, figure.youtube {
 	margin:0;
@@ -1866,6 +1880,12 @@ figure.vimeo a img, figure.youtube a img {
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
 }
+
+.padding-ins{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 .post-box .blockquote:before{
 	display: none;
 }
@@ -2807,8 +2827,38 @@ figure.vimeo a img, figure.youtube a img {
 		letter-spacing: 0;
 		font-size: 14px;
 	}
+
 }
 
+
+.social-share {
+	font-size: 1px;
+}
+ 
+/* This gets Facebook to fall into place */
+.social-share iframe {
+	vertical-align: top;
+	
+}
+.whatsapp-btn{
+	vertical-align: top;
+	padding-top: 2px !important;
+	float: left;
+	padding-bottom: 2px !important;
+}
+/* Set an optional width for your button wrappers */
+.social-share span {
+	display: inline-block;
+	width: 110px;
+}
+
+.fbbtn{
+	background: #4267b2;
+}
+
+.twbtn{
+	background: #1da1f2;
+}
 
 
 
