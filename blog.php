@@ -50,54 +50,27 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<title>Zentachain - future of data protection</title>
-	<meta name="publisher" content="Harun Kacemer">
-	<meta name="description" content="Zentachain">
-	<meta name="copyright" content="Zentachain">
-	<meta name="author" content="Harun Kacemer">
-	<meta name="page-topic" content="Blockchain Services">
-	<meta name="language" content="English">
-	<meta name="coverage" content="Worldwide">
-	<meta name="page-type" content="Blockchain">
-	<meta name="twitter:description" content="Zentachain">
-	<meta name="keywords" content="Zentachain, Zenta, Blockchain, Ethereum, Cloud, Zentalk, Zentavault, Crypto, Polkadot, Bitcoin, Dpos, Whatsapp">
-	<meta name="description" content="(ζ)Zentachain is a decentralized high-throughput blockchain ecosystem, designed for secure with anonymous communication and data storage.(ζ)">
-	<meta name="keywords" content="Zentachain, Zenta, Blockchain, Ethereum, Cloud, Zentalk, Zentavault, Crypto, Polkadot, Bitcoin,">
+	<?php
+		$title = "Zentachain news - full of stuff";
+		$publisher = "Harun Kacemer";
+		$description = "(ζ)Zentachain is a decentralized high-throughput blockchain ecosystem, designed for secure with anonymous communication and data storage.(ζ)";
+		$copyright = "Zentachain";
+		$pagetopic = "Blockchain Services";
+		$language = "English";
+		$coverage = "Worldwide";
+		$pagetype = "Blockchain";
+		$keywords = "Zentachain, Zenta, Blockchain, Ethereum, Cloud, Zentalk, Zentavault, Crypto, Polkadot, Bitcoin, Dpos, Whatsapp";
 
-	<meta property="og:title" content="The Future of Blockchain for Data protection and Communication">
-	<meta property="og:type" content="https://Zentachain.io">
-	<meta property="og:url" content="zentachain.io">
-	<meta property="og:type" content="website">
-	<meta property="og:image:width" content="470">
-	<meta property="og:image:height" content="246">
+		$ogtitle = "The Future of Blockchain for Data protection and Communication";
+		$ogurl = "https://zentachain.io";
+		$ogtype = "website";
+		$ogimg = "https://zentachain.io/News-Images/og-image.jpg";
 
-	<!-- Twitter -->
-	<meta property="twitter:title" content="The Future of Blockchain for Data protection and Communication">
-	<meta property="twitter:description" content="(ζ)Zentachain is a decentralized high-throughput blockchain ecosystem, designed for secure with anonymous communication and data storage.(ζ)">
-	<meta name="twitter:image" content="http://zentachain.io/">
-	<meta name="twitter:site" content="https://twitter.com/Zentachain">
-	<meta name="twitter:description" content="Zentachain">
-	<meta property="twitter:url" content="https://zentachain.io/">
-	<meta property="twitter:image" content="https://zentachain.io/assets/">
-	<meta property="twitter:card" content="summary_large_image">
-
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://zentachain.io">
-	<meta property="og:title" content="The Future of Blockchain for Data protection and Communication">
-	<meta property="og:description" content="(ζ)Zentachain is a decentralized high-throughput blockchain ecosystem, designed for secure with anonymous communication and data storage.(ζ)">
-	<meta property="og:image" content="https://zentachain.io/assets/">
-        <meta name="Distribution" content="Global">
-	
-
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="theme-color" content="#212121"/>
-        <meta name="msapplication-navbutton-color" content="#212121"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
-
+		$twnamedescription = "Zentachain";
+		$twnamesite = "https://twitter.com/Zentachain";
+		
+		require "meta.php";
+	?>
 	<!-- Web Fonts 
 	================================================== -->
 	<link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
@@ -115,10 +88,23 @@
 	<link rel="apple-touch-icon" href="zentachain-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="zentachain-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="zentachain-touch-icon-114x114.png">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123666404-1"></script>
+
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-123666404-1');
+	</script>
+
 	
 </head>
-	
+<!-- <body></body> -->
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v4.0&appId=355393081283908&autoLogAppEvents=1"></script>
+
 
 	<!-- Page preloader wrap
 	================================================== -->
@@ -161,7 +147,7 @@
 					<li class="nav__list-item"><a href="contact.html" class="hover-target animsition-link">Contact</a></li>
 				</ul>
 			</div>
-		</div>
+		</div>	
 
 		<!-- Primary Page Layout
 		================================================== -->
@@ -219,11 +205,23 @@
 
 							<li class="case-study-name mb-5">
 								<a href="articles.php?p_id=<?php echo $dataFetch['p_id']; ?>" class="hover-target animsition-link">
-									<h4 class="mb-3"><?php echo $dataFetch['title']; ?></h4>
-								</a>
+									<h4><?php echo $dataFetch['title']; ?></h4>
+								</a><br/>
+									<!-- <div class="social-share">
+										<div class="fb-share-button" data-href="https://zentachain.io/articles.php?p_id=<?php echo $res; ?>" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $res; ?>&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+										<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="<?php echo $fetchData['title']; ?>" data-url="https://zentachain.io/articles.php?p_id=<?php echo $res; ?>" data-via="zentachain" data-related="zentachain" data-hashtags="zentachainnews" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+										<a class="whatsapp-btn btn btn-success" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $res; ?>"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 3px"></i>WhatsApp</a>
+										<a class="whatsapp-btn btn btn-secondary" href="https://telegram.me/share/url?url=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $res; ?>&text=<?php echo $fetchData['title']; ?>"><i class="fa fa-telegram" aria-hidden="true" style="padding-right: 3px"></i>Telegram</a>
+									</div><br/> -->
+									<div class="social-share">
+										<div class="whatsapp-btn btn btn-secondary fbbtn" data-href="https://zentachain.io/articles.php?p_id=<?php echo $res; ?>" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $res; ?>&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore text-white"><i class="fa fa-facebook" aria-hidden="true" style="padding-right: 3px"></i>facebook</a></div>
+										<a target="_blank" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="whatsapp-btn btn btn-secondary twbtn" data-size="large" data-text="<?php echo $fetchData['title']; ?>" data-url="https://zentachain.io/articles.php?p_id=<?php echo $res; ?>" data-via="zentachain" data-related="zentachain" data-hashtags="zentachainnews" data-show-count="false"><i class="fa fa-twitter" aria-hidden="true" style="padding-right: 3px"></i>Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+										<a target="_blank" class="whatsapp-btn btn btn-success" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $res; ?>"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 3px"></i>WhatsApp</a>
+										<a target="_blank" class="whatsapp-btn btn btn-secondary twbtn" href="https://telegram.me/share/url?url=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $res; ?>&text=<?php echo $fetchData['title']; ?>"><i class="fa fa-telegram" aria-hidden="true" style="padding-right: 3px"></i>Telegram</a>
+									</div><br/>
 								<div class="row">
 									<div class="col-lg-6">
-										<p class="pl-0 pl-md-5 mb-4">
+										<p class="pl-0 pl-md-5 mb-4 mt-3">
 											<?php
 												$string = (strlen($dataFetch['content']) > 100) ? substr($dataFetch['content'],0,99).'...' : $dataFetch['content'];
 												echo $string;
@@ -245,7 +243,7 @@
 									</div>
 									<div class="col-lg-6">
 										<?php if($dataFetch['imgname'] != NULL){ ?>
-										<img src="img/news/<?php echo $dataFetch['imgname']; ?>" class="img-thumbnail" width="280" height="180"/>
+										<img src="https://zentachain.io/News-Images/<?php echo $dataFetch['imgname']; ?>" class="img-thumbnail" width="280" height="180"/>
 										<?php } ?>
 									</div>
 								</div>	
@@ -317,7 +315,7 @@
 								?>	
 
 								<li>
-									<a href="?year=<?php echo $lastdate['year']; ?>&month=<?php echo $lastdate['month']; ?>" class="btn-link btn-primary hover-target pl-0"><?php echo date('F', mktime(0, 0, 0, $lastdate['month'], 10))." ".$lastdate['year']; ?></a>
+									<a href="?year=<?php echo $lastdate['year']; ?>&month=<?php echo $lastdate['month']; ?>" class="btn-link btn-primary hover-target pl-0"><?php $monthToText = date("F", mktime(0, 0, 0, $lastdate['month'], 10)); echo $monthToText." ".$lastdate['year']; ?></a>
 								</li>	
 
 								<?php } ?>
