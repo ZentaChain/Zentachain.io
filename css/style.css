@@ -13,6 +13,14 @@
  * from line 2558 - Media, for smaller screens
  *
  */
+
+/* #Social
+================================================== */
+.social-icons img {
+	  width:45px;
+	  height:45px;
+}
+
 .img-wrap img {
 	width: 100%;
 	height: auto;
