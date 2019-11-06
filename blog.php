@@ -90,14 +90,6 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="zentachain-touch-icon-114x114.png">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123666404-1"></script>
 
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-123666404-1');
-	</script>
-
 	
 </head>
 <!-- <body></body> -->
