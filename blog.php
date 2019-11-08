@@ -339,17 +339,8 @@
 			</div>			
 		</div>
 		
-		<!-- Social links
-		================================================== -->
 		
-		<div class="social-fixed">
-			<a href="https://twitter.com/zentachain" class="hover-target">TW</a>
-			<a href="https://medium.com/@zentachain" class="hover-target">MD</a>
-			<a href="https://t.me/ZentachainOfficialChat" class="hover-target">TG</a>
-			<a href="https://www.instagram.com/zentachain/" class="hover-target">IG</a>
-			<a href="https://github.com/ZentaChain" class="hover-target">GH</a>
-			<a href="https://www.reddit.com/r/ZentaChain/" class="hover-target">RD</a>
-		</div>
+
 		<div class="copyr">
 			2019 © <a href="https://zentachain.io" class="hover-target">Zentachain</a>
 		</div>
