@@ -60,7 +60,6 @@
 		$coverage = "Worldwide";
 		$pagetype = "Blockchain";
 		$keywords = "Zentachain, Zenta, Blockchain, Ethereum, Cloud, Zentalk, Zentavault, Crypto, Polkadot, Bitcoin, Dpos, Whatsapp";
-
 		$ogtitle = "The Future of Blockchain for Data protection and Communication";
 		$ogurl = "https://zentachain.io";
 		$ogtype = "website";
@@ -198,13 +197,6 @@
 							<li class="case-study-name mb-5">
 								<a href="articles.php?p_id=<?php echo $dataFetch['p_id']; ?>" class="hover-target animsition-link">
 									<h4><?php echo $dataFetch['title']; ?></h4>
-								</a><br/>
-									<div class="social-share">
-										<div class="whatsapp-btn" data-href="https://zentachain.io/articles.php?p_id=<?php echo $dataFetch['p_id']; ?>" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $dataFetch['p_id']; ?>&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore text-white"><img src="img/social/fb.png" width="30px" height="auto"/></a></div>
-										<a target="_blank" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="whatsapp-btn" data-size="large" data-text="<?php echo $dataFetch['title']; ?>" data-url="https://zentachain.io/articles.php?p_id=<?php echo $dataFetch['p_id']; ?>" data-via="zentachain" data-related="zentachain" data-hashtags="zentachainnews" data-show-count="false"><img src="img/social/twitter.png" width="30px" height="auto"/></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-										<a target="_blank" class="whatsapp-btn" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $dataFetch['p_id']; ?>"><img src="img/social/whatsapp.png" width="30px" height="auto"/></a>
-										<a target="_blank" class="whatsapp-btn" href="https://telegram.me/share/url?url=https%3A%2F%2Fzentachain.io%2Farticles.php%3Fp_id%3D<?php echo $dataFetch['p_id']; ?>&text=<?php echo $dataFetch['title']; ?>"><img src="img/social/telegram.png" width="30px" height="auto"/></a>
-									</div><br/>
 								<div class="row">
 									<div class="col-lg-6">
 										<p class="pl-0 pl-md-5 mb-4 mt-3">
@@ -313,7 +305,6 @@
 				</div>
 			</div>
 		</div>
-
 		
 		<div class="section padding-top-bottom over-hide z-bigger background-black footer">
 			<div class="shadow-on-footer" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.1s">Our Stories</div>
@@ -338,7 +329,6 @@
 				</div>
 			</div>			
 		</div>
-		
 		
 
 		<div class="copyr">
