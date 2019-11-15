@@ -132,7 +132,7 @@
 							<li><a href="https://zentachain.io/zentawallet.html" class="hover-target animsition-link">Zentawallet</a></li>
 						</ul>
 					</li>
-					<li class="nav__list-item"><a href="kyc.html" class="hover-target animsition-link">KYC-Point</a></li>
+					<li class="nav__list-item"><a href="https://zentachain.io/zenta-kyc/" class="hover-target animsition-link">KYC-Point</a></li>
 					<li class="nav__list-item"><a href="index.html" class="hover-target animsition-link">Our Partners</a></li>
 					<li class="nav__list-item active-nav"><a href="blog.php" class="hover-target animsition-link">News</a></li>
 					<li class="nav__list-item"><a href="contact.html" class="hover-target animsition-link">Contact</a></li>
