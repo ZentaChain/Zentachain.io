@@ -51,20 +51,19 @@
 <head>
 
 	<?php
-		$title = "Zentachain news - full of stuff";
+		$title = "";
 		$publisher = "Harun Kacemer";
 		$description = "(ζ)Zentachain is a decentralized high-throughput blockchain ecosystem, designed for secure with anonymous communication and data storage.(ζ)";
 		$copyright = "Zentachain";
-		$pagetopic = "Blockchain Services";
-		$language = "English";
+		$pagetopic = "";
+		$language = "en";
 		$coverage = "Worldwide";
 		$pagetype = "Blockchain";
-		$keywords = "Zentachain, Zenta, Blockchain, Ethereum, Cloud, Zentalk, Zentavault, Crypto, Polkadot, Bitcoin, Dpos, Whatsapp";
+		$keywords = "";
 		$ogtitle = "The Future of Blockchain for Data protection and Communication";
 		$ogurl = "https://zentachain.io";
 		$ogtype = "website";
-		$ogimg = "https://zentachain.io/News-Images/og-image.jpg";
-
+		$ogimg = "";
 		$twnamedescription = "Zentachain";
 		$twnamesite = "https://twitter.com/Zentachain";
 		
@@ -91,7 +90,7 @@
 
 	
 </head>
-<!-- <body></body> -->
+
 <body>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v4.0&appId=355393081283908&autoLogAppEvents=1"></script>
